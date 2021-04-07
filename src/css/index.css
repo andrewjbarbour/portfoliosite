@@ -57,6 +57,7 @@ body{
 
 #main-body-header{
     display: block;
+    margin-top: -5px;
     font-size: 3rem;
     font-weight: 500;
     height: 7vh;
@@ -134,6 +135,8 @@ body{
 
 #review-projects-button:hover, #see-resume-button:hover{
     cursor: pointer;
+    transform: scale(1.1);
+    transition: all .25s ease-in;
 }
 
 .inner-button-link{
@@ -141,6 +144,21 @@ body{
     width: 100%;
     text-align: center;
     color: #fff;
+}
+
+#social-icons-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#github-icon{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#github-icon:hover{
+    transform: scale(1.1);
 }
 
  footer{
