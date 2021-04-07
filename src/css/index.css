@@ -48,18 +48,64 @@ body{
      min-height: 80vh !important;
  }
  
- main{
+ #main{
      justify-content: center;
-     display: flex;
-     min-height: calc();
+     display: block;
+     min-height: 84.4vh;
      width: 100vw;
  }
 
 #main-body-header{
+    display: block;
     font-size: 3rem;
     font-weight: 500;
+    height: 7vh;
+    width: 100vw;
+    text-align: center;
+}
+
+#main-col-wrapper{
+    display: flex;
+    width: 100vw;
+    height: 52.5vh;
+  
 }
  
+#fp-main-col-left{
+
+    width: 30vw;
+    height: 52.5vh;
+}
+
+#profile-pic{
+    border-radius: 9999px;
+    width: 290px;
+    height: 308px;
+    margin-left: 10vw;
+}
+
+#fp-main-col-right{
+
+    width: 70vw;
+    height: 52.5vh;
+}
+
+#bio-part-1{
+    width: 579px;
+    line-height: 31px;
+    font-size: 21px;
+    font-family: Hoefler Text;
+    margin-left: 1vw;
+}
+
+#bio-part-2{
+    width: 579px;
+    line-height: 31px;
+    font-size: 21px;
+    font-family: Hoefler Text;
+    margin-left: 1vw;
+}
+
  footer{
      display: flex;
      width: 110%;
@@ -72,14 +118,17 @@ body{
  #main-footer-wrapper{
      display: flex;
      color: #fff;
-     margin-left: 50vw;
      align-self: center;
      font-size: 18px;
  }
  
  #copyright-details{
      color: #fff;
-     margin-left: 15vw;
+     margin-left: 4vw;
+ }
+
+ #back-to-top-link{
+    margin-left: 63vw;
  }
  
  #back-to-top-link:hover{
