@@ -38,3 +38,19 @@
     font-style: italic;
     width: 50vw;
 }
+
+#work-experience-wrapper{
+    display: block;
+}
+
+.work-experience-subheader{
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-left: 3vw;
+    margin-bottom: 1vh;
+}
+
+.work-experience-content{
+    display: block;
+    margin-left: -10vw;
+}
