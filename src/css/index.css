@@ -48,7 +48,7 @@ body{
      min-height: 80vh !important;
  }
  
- #main{
+ .main{
      justify-content: center;
      display: block;
      min-height: 84.4vh;
