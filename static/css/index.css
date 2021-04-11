@@ -3,6 +3,7 @@ body{
     color: #0f1111;  
     overflow-x: hidden;
     overflow-y:auto;
+    display: inline-block;
  }
  
  header h1{
@@ -18,11 +19,7 @@ body{
      margin-left: 2vw;
      font-weight: 500;
  }
- 
- nav{
-     margin-left: 15vw;
- }
- 
+  
  nav a{
      display: inline-block;
      color: #cd2653;
@@ -42,6 +39,7 @@ body{
  
  #site-navbar{
      display: inline-block;
+     margin-left: 15vw;
  }
 
  #content-wrapper{
@@ -68,30 +66,35 @@ body{
 #main-col-wrapper{
     display: flex;
     width: 100vw;
-    height: 52.5vh;
+    min-height: 52.5vh;
   
 }
  
 #fp-main-col-left{
-
-    width: 30vw;
-    height: 52.5vh;
+    display: flex;
+    min-width: 30vw;
+    min-height: 52.5vh;
+    margin-right: 10px;
+    justify-content: center;
 }
 
 #profile-pic{
+    display: block;
     border-radius: 9999px;
-    width: 290px;
+    min-width: 290px;
     height: 308px;
     margin-left: 10vw;
+    margin-right: 1vw;
 }
 
 #fp-main-col-right{
-
-    width: 70vw;
-    height: 52.5vh;
+    display: inline-block;
+    min-width: 70vw;
+    min-height: 52.5vh;
 }
 
 #bio-part-1{
+    display: block;
     width: 579px;
     line-height: 31px;
     font-size: 21px;
@@ -100,6 +103,7 @@ body{
 }
 
 #bio-part-2{
+    display: block;
     width: 579px;
     line-height: 31px;
     font-size: 21px;
@@ -110,7 +114,7 @@ body{
 #buttons-wrapper{
     display: flex;
     width: 100vw;
-    height: 100px;
+    min-height: 12vh;
     justify-content: center;
 }
 
@@ -150,6 +154,10 @@ body{
 #social-icons-wrapper{
     display: flex;
     justify-content: center;
+    min-height: 5vh;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
 }
 
 .social-icon:hover{
@@ -165,7 +173,7 @@ body{
 
  footer{
      display: flex;
-     width: 110%;
+     width: 110vw;
      margin-left: -10px;
      margin-bottom: -10px;
      background: #cd2653;
@@ -181,15 +189,45 @@ body{
  }
  
  #copyright-details{
+     display: inline block;
      color: #fff;
      margin-left: 4vw;
+     width: 88vw;
  }
 
  #back-to-top-link{
-    margin-left: 63vw;
+    display: inline-block;
+    min-width: 20vw;
+    margin-right: 15px;;
  }
  
  #back-to-top-link:hover{
      cursor: pointer;
      text-decoration: underline;
  }
+
+@media only screen and (max-width: 1050px){
+    #main-col-wrapper{
+        display: block;
+    }
+    #fp-main-col-left{
+        display: flex;
+        margin-bottom: 0;
+        min-height: 20vh;
+    }
+
+    #fp-main-col-right{
+        margin-left: 25%;
+        margin-right: 25%;
+        min-height: 35vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px){
+    #main-footer-wrapper{
+        display: block;
+    }
+
+}
