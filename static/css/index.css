@@ -224,7 +224,6 @@ body{
 @media only screen and (max-width: 900px){
     #main-footer-wrapper{
         display: block;
-       
     }
 
     #back-to-top-link{
@@ -240,7 +239,6 @@ body{
 
     #copyright-details{
         margin-left: 3vw;
-        width: 94vw;
         margin-right: 3vw;
     }
 
@@ -262,5 +260,17 @@ body{
     #site-navbar{
         display: none;
     }
-   
+    #buttons-wrapper{
+        display: block;
+    }
+    #review-projects-button{
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #see-resume-button{
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
