@@ -198,7 +198,7 @@ body{
 
  #back-to-top-link{
     display: inline-block;
-    min-width: 20vw;
+    width: 20vw;
     margin-right: 15px;;
  }
  
@@ -218,8 +218,6 @@ body{
         margin-left: 3vw;
     }
     
-    #site-navbar{
-    }
 }
 
 @media only screen and (max-width: 900px){
