@@ -3,9 +3,10 @@ body{
     color: #0f1111;  
     overflow-x: hidden;
     overflow-y:auto;
-    min-width: 120vw;
+    margin: 0px;
     display: inline-block;
  }
+
  
  header h1{
      font-size: 50px;
@@ -172,14 +173,12 @@ body{
     cursor: pointer;
 }
 
- footer{
+ #site-footer{
      display: flex;
-     min-width: 100%;
-     margin-left: -10px;
+     min-width: 100vw;
      margin-right: 0;
-     margin-bottom: -10px;
      background: #cd2653;
-     height: 20vh;
+     min-height: 20vh;
  }
  
  
@@ -212,24 +211,50 @@ body{
     #main-col-wrapper{
         display: block;
     }
-    #fp-main-col-left{
-        display: flex;
-        margin-bottom: 0;
-        min-height: 20vh;
+   
+    #main-site-header h2{
+        position: absolute;
+        display: block;
+        margin-top: -30px;
+        margin-left: 3vw;
     }
-
-    #fp-main-col-right{
-        margin-left: 25%;
-        margin-right: 25%;
-        min-height: 35vh;
-    }
-
-
+    
 }
 
 @media only screen and (max-width: 900px){
     #main-footer-wrapper{
         display: block;
+       
     }
 
+    #back-to-top-link{
+        margin-top: 2vh;
+        margin-left: 40vw;
+        width: 20vw;
+        margin-right: 40vw;
+    }
+
+    #copyright-details{
+        margin-left: 10vw;
+        width: 80vw;
+        margin-right: 10vw;
+    }
+
+    #bio-part-1{
+        width: 90vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #bio-part-2{
+        width: 90vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+   
+   
 }
