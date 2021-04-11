@@ -3,6 +3,7 @@ body{
     color: #0f1111;  
     overflow-x: hidden;
     overflow-y:auto;
+    min-width: 120vw;
     display: inline-block;
  }
  
@@ -173,8 +174,9 @@ body{
 
  footer{
      display: flex;
-     width: 110vw;
+     min-width: 100%;
      margin-left: -10px;
+     margin-right: 0;
      margin-bottom: -10px;
      background: #cd2653;
      height: 20vh;
