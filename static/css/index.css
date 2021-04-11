@@ -5,8 +5,12 @@ body{
     overflow-y:auto;
     margin: 0px;
     display: inline-block;
+    position: relative;
  }
 
+ html{
+     overflow-x: hidden;
+ }
  
  header h1{
      font-size: 3.12rem;
