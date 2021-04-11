@@ -227,8 +227,9 @@ body{
 
     #back-to-top-link{
         margin-top: 2vh;
-        margin-left: 40vw;
-        margin-right: 40vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        width: 30vw;
     }
 
     #fp-main-col-left{
@@ -270,5 +271,9 @@ body{
         margin-bottom: 15px;
         margin-left: auto;
         margin-right: auto;
+    }
+    #back-to-top-wrapper{
+        display: flex;
+        justify-content: center;
     }
 }
