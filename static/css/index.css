@@ -234,10 +234,14 @@ body{
         margin-right: 40vw;
     }
 
+    #fp-main-col-left{
+        min-height: 30vh;
+    }
+
     #copyright-details{
-        margin-left: 10vw;
-        width: 80vw;
-        margin-right: 10vw;
+        margin-left: 3vw;
+        width: 94vw;
+        margin-right: 3vw;
     }
 
     #bio-part-1{
