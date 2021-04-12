@@ -18,6 +18,7 @@ html{
 #projects-main{
     display: block;
     width: 100vw;
+    min-height: 200vh;
 }
 
 
@@ -45,6 +46,7 @@ html{
 .project{
     display: block;
     width: 100vw;
+    margin-bottom: 10vh;
 }
 
 .project-subheader{
@@ -100,6 +102,21 @@ html{
     transform: rotate(22.5deg) translateY(-1.2vh);
     margin-left: .5%;
     margin-right: .5%; 
+}
+
+.project-img{
+    display: block;
+    width: 580px;
+    height: 392px;
+}
+
+.project-link{
+    display: flex;
+    justify-content: center;
+}
+
+.project-link:hover{
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 767px){
