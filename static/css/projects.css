@@ -15,10 +15,6 @@ html{
     max-width: 100%;
 }
 
-#main-site-header, #site-navbar, #content-wrapper, #projects-main{
-    width: 100vw;
-}
-
 #projects-main{
     display: block;
     width: 100vw;
