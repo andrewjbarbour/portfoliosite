@@ -59,21 +59,23 @@ html{
 .projects-divider-left{
     display: inline-block;
     width: 46vw;
-    margin-left: 2vw;
     height: 1px;
     border: none;
     border-top: 1px solid #6d6d6d;
     background-color: transparent;
+    margin-left: 2%;
+    margin-right: 0%;
 }
 
 .projects-divider-right{
     display: inline-block;
     width: 46vw;
-    margin-right: 2vw;
     height: 1px;
     border: none;
     border-top: 1px solid #6d6d6d;
     background-color: transparent;
+    margin-left: .5%;
+    margin-right: 2%;
 }
 
 .project-divider-wrapper{
@@ -82,24 +84,30 @@ html{
 
 .divider-accent-left{
     display: inline-block;
-    height: 1.2rem;
+    height: 1rem;
     background-color: #6d6d6d;
     border: none;
     border-top: 1px solid #6d6d6d;
     width: .08rem;
     transform: rotate(22.5deg) translateY(-1.2vh);
-    margin-left: .5vw; 
-    margin-right: .5vw;
+    margin-left: .5%; 
+    margin-right: .25%;
 }
 
 .divider-accent-right{
     display: inline-block;
-    height: 1.2rem;
+    height: 1rem;
     background-color: #6d6d6d;
     border: none;
     border-top: 1px solid #6d6d6d;
     width: .08rem;
     transform: rotate(22.5deg) translateY(-1.2vh);
-    margin-left: .5vw; 
-    margin-right: .5vw;
+    margin-left: .5%;
+    margin-right: .5%; 
+}
+
+@media only screen and (max-width: 767px){
+    .divider-accent-right{
+        margin-right: 2%; 
+    }
 }
