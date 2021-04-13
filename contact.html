@@ -26,10 +26,14 @@
                 <p id="contact-description">Tell me about your job opportunities, or say hi</p>
                 <section>
                     <form id="contact-form" method="POST">
-                        <label id="contact-name-label" for="contact-name">Name:</label>
+                        <label name="contact-name-label" id="contact-name-label" for="contact-name">Name:</label>
                         <input name="contact-name" id="contact-name" type="text" required>
-                        <label id="email-label" for="contact-email">Email:</label>
+                        <label name="contact-email-label" id="contact-email-label" for="contact-email">Email:</label>
                         <input name="contact-email" id="contact-email" type="email" required>
+                        <label name="contact-subject-label" id="contact-subject-label"for="contact-subject">Subject (optional): </label>
+                        <input name="contact-subject" id="contact-subject" type="text">
+                        <label name="contact-message-label" id="contact-message-label" for="contact-message">Message: </label>
+                        <textarea name="contact-message" id="contact-message" type="text" maxlength="1000" required></textarea>
                     </form>
                 </section>
             </main>
