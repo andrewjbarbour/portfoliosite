@@ -28,3 +28,20 @@
 .amazon-link:hover{
     text-decoration: underline;
 }
+
+#amazon-main figcaption{
+    color: #cd2653;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+}
+
+#amazon-main img {
+    display: block;
+    width: 580px;
+    height: 392px;
+    margin-left: auto;
+    margin-right: auto;
+}
