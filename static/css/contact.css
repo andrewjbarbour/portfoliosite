@@ -18,6 +18,10 @@
     text-align: center;
 }
 
+#contact-main{
+    height: 90vh;
+}
+
 #contact-main #email-icon{
     transform: translateY(.5vh);
 }
@@ -63,7 +67,7 @@
     font-size: 1.3rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     resize: none;
     padding: 1vh;
     box-sizing: border-box;
@@ -94,4 +98,12 @@
     cursor: pointer;
     transform: scale(1.1);
     transition: all ease-in .25s;
+}
+
+#chars-remaining{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28vw;
+    margin-bottom: 2vh;
 }

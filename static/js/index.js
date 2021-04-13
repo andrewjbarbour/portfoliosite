@@ -9,3 +9,4 @@ const scrollToTop = () =>{
 backToTopLink.addEventListener('click', ()=> {
     scrollToTop();
 })
+

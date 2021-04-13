@@ -33,7 +33,8 @@
                         <label name="contact-subject-label" id="contact-subject-label"for="contact-subject">Subject (optional): </label>
                         <input name="contact-subject" id="contact-subject" type="text">
                         <label name="contact-message-label" id="contact-message-label" for="contact-message">Message: </label>
-                        <textarea name="contact-message" id="contact-message" type="text" maxlength="1000" required></textarea>
+                        <textarea name="contact-message" id="contact-message" type="text" maxlength="1000" keydown="handleMessageCount()" required ></textarea>
+                        <small id="chars-remaining"><span id="message-count">1000</span> characters</small>
                         <button id="send-message-button" type="submit">SEND</button>
                     </form>
                 </section>
@@ -47,4 +48,5 @@
         </footer>
     </body>
     <script src="static/js/index.js"></script>
+    <script src="static/js/contact.js"></script>
 </html>
