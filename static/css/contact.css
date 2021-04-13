@@ -1,0 +1,52 @@
+.contact-header{
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: -1rem;
+    width: 100vw;
+    height: 7vh;
+    margin-bottom: 0;
+}
+
+#contact-description{
+    font-family: Hoefler Text, sans-serif;
+    display: block;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
+#contact-main #email-icon{
+    transform: translateY(.5vh);
+}
+
+#contact-main label{
+    display: block;
+    width: 28vw;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    color: #cd2653;
+    font-size: 1.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-main input{
+    display: block;
+    height: 5vh;
+    width: 28vw;
+    outline: none;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    text-indent: .5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-main input:focus{
+    box-shadow: 0 0 2px 1px #cd2653;
+}

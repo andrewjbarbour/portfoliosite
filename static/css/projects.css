@@ -18,7 +18,7 @@ html{
 #projects-main{
     display: block;
     width: 100vw;
-    min-height: 200vh;
+    min-height: 205vh;
 }
 
 
@@ -138,6 +138,7 @@ html{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5vh;
 }
 
 #get-in-touch-button:hover{
