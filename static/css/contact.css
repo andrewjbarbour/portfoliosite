@@ -69,9 +69,29 @@
     box-sizing: border-box;
 }
 
-
-
 #contact-message:focus, #contact-message:hover{
     box-shadow: 0 0 2px 1px #cd2653;
+    transition: all ease-in .25s;
+}
+
+#send-message-button{
+    display: block;
+    width: 10vw;
+    height: 58px;
+    border: none;
+    background-color:#e22658;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 1em;
+}
+
+#send-message-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
     transition: all ease-in .25s;
 }
