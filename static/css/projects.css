@@ -119,6 +119,33 @@ html{
     cursor: pointer;
 }
 
+#hero-text{
+    display: block;
+    font-weight: 600;
+    font-size: 2.9rem;
+    font-family: Inter, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#get-in-touch-button{
+    display: flex;
+    width: 225px;
+    height: 58px;
+    background-color:#e22658;
+    border-radius: 100px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#get-in-touch-button:hover{
+    cursor:pointer;
+    transform:scale(1.1);
+    transition: all .25s ease-in;
+}
+
 @media only screen and (max-width: 767px){
     .divider-accent-right{
         margin-right: 2%; 
