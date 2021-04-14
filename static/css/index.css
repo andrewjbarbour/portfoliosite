@@ -283,6 +283,11 @@ body{
 
 }
 
+#favicon{
+    mix-blend-mode: multiply;
+    filter: opacity(0);
+}
+
 @media only screen and (max-width: 767px){
     #site-navbar{
         display: none;
