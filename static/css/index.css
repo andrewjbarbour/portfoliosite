@@ -214,6 +214,24 @@ body{
      text-decoration: underline;
  }
 
+@media only screen and (max-width: 1200px){
+    #site-navbar{
+        margin-left: 5vh;
+    }
+}
+
+@media only screen and (max-width: 1175px){
+    #site-navbar{
+        margin-left: 3vh;
+    }
+}
+
+@media only screen and (max-width: 1155px){
+    #contact-link{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1050px){
     #main-col-wrapper{
         display: block;

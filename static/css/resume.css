@@ -1,6 +1,6 @@
 #resume-main{
     font-family: Hoefler Text, sans-serif;
-    height: 250vh;
+    height: 260vh;
 }
 
 #resume-header{
@@ -33,11 +33,16 @@
     margin-right: auto;
     width: 50vw;
     height: 200vh;
+    box-sizing: border-box;
 }
 
 #resume-description{
     font-style: italic;
-    width: 50vw;
+    width: 40vw;
+}
+
+#skills{
+    width: 42vw;
 }
 
 #work-experience-wrapper{
@@ -64,7 +69,7 @@
 #resume-button-wrapper{
     display: block;
     width: 100vw;
-    height: 100px;
+    height: 20vh;
     margin-top: 5vh;
     margin-left: 18vw;
     font-size: 1.1rem;
@@ -78,10 +83,34 @@
     background-color:#e22658;
     border-radius: 100px;
     align-items: center;
+    margin-bottom: 5vh;
 }
 
 #view-resume-pdf-button:hover{
     cursor: pointer;
     transform: scale(1.1);
     transition: all .25s ease-in;
+}
+
+@media only screen and (max-width: 767px){
+    #resume-wrapper{
+        width: 100vw;
+        padding-right: 5vw;
+    }
+
+    #resume-description{
+        width: 100vw;
+    }
+
+    #skills{
+        width: 100vw;
+    }
+
+    #resume-main{
+        height: 350vh;
+    }
+
+    #view-resume-pdf-button{
+        margin-left: 9vw;
+    }
 }
