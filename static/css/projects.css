@@ -152,3 +152,16 @@ html{
         margin-right: 2%; 
     }
 }
+
+@media only screen and (max-width: 767px){
+    .project-img{
+        width: 80vw;
+        height: auto;
+    }
+    .project-link{
+        margin-bottom: -5vh;
+    }
+    #projects-main{
+        min-height: 150vh;
+    }
+}
