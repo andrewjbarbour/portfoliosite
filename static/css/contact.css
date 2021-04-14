@@ -18,6 +18,14 @@
     text-align: center;
 }
 
+#success-message{
+    font-family: Hoefler Text, sans-serif;
+    display: block;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
 #contact-main{
     height: 90vh;
 }
