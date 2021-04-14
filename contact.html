@@ -24,9 +24,9 @@
             <main class="main" id="contact-main">
                 <h1 class="contact-header">Contact <svg id="email-icon" class="social-icon" height="448pt" viewBox="0 0 448 448" width="448pt" xmlns="http://www.w3.org/2000/svg"><path d="m314.375 144h-180.75l90.375 77.464844zm0 0"/><path d="m224 240c-1.910156 0-3.757812-.683594-5.207031-1.929688l-98.792969-84.679687v150.609375h208v-150.609375l-98.792969 84.679687c-1.449219 1.246094-3.296875 1.929688-5.207031 1.929688zm0 0"/><path d="m224 0c-123.710938 0-224 100.289062-224 224s100.289062 224 224 224 224-100.289062 224-224c-.140625-123.652344-100.347656-223.859375-224-224zm120 312c0 4.417969-3.582031 8-8 8h-224c-4.417969 0-8-3.582031-8-8v-176c0-4.417969 3.582031-8 8-8h224c4.417969 0 8 3.582031 8 8zm0 0"/></svg></h1>
                 <p id="contact-description">Tell me about your job opportunities, or say hi</p>
-                <section>
+                <div id="form-wrapper">
                     <span id="success-message"></span>
-                    <form name="contact-form" method="POST" data-netlify="true" action="/contact?success" enctype="multipart/form-data">
+                    <form name="contact" method="POST" data-netlify="true" action="/contact?success" enctype="application/x-www-form-urlencoded">
                         <label name="contact-name-label" id="contact-name-label" for="contact-name">Name:</label>
                         <input name="contact-name" id="contact-name" type="text" required>
                         <label name="contact-email-label" id="contact-email-label" for="contact-email">Email:</label>
@@ -38,7 +38,7 @@
                         <small name="chars-remaining" id="chars-remaining"><span id="message-count">1000</span> characters</small>
                         <button name="send-message-button" id="send-message-button" type="submit">SEND</button>
                     </form>
-                </section>
+                </div>
             </main>
         </div>
         <footer id="site-footer">
