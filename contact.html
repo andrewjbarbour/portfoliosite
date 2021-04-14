@@ -26,7 +26,7 @@
                 <p id="contact-description">Tell me about your job opportunities, or say hi</p>
                 <section>
                     <span id="success-message"></span>
-                    <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/contact?success">
+                    <form name="contact-form" method="POST" data-netlify="true" action="/contact?success">
                         <label name="contact-name-label" id="contact-name-label" for="contact-name">Name:</label>
                         <input name="contact-name" id="contact-name" type="text" required>
                         <label name="contact-email-label" id="contact-email-label" for="contact-email">Email:</label>
@@ -35,8 +35,8 @@
                         <input name="contact-subject" id="contact-subject" type="text">
                         <label name="contact-message-label" id="contact-message-label" for="contact-message">Message: </label>
                         <textarea name="contact-message" id="contact-message" type="text" maxlength="1000" keydown="handleMessageCount()" required ></textarea>
-                        <small id="chars-remaining"><span id="message-count">1000</span> characters</small>
-                        <button id="send-message-button" type="submit">SEND</button>
+                        <small name="chars-remaining" id="chars-remaining"><span id="message-count">1000</span> characters</small>
+                        <button name="send-message-button" id="send-message-button" type="submit">SEND</button>
                     </form>
                 </section>
             </main>
