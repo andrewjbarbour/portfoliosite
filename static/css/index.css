@@ -7,12 +7,15 @@ body{
     display: inline-block;
     position: relative;
     max-width: 100%;
+    min-height: 100%;
  }
 
  html{
      overflow-x: hidden;
      scroll-behavior:smooth;
      max-width: 100%;
+     min-width: 100%;
+     height: 100%;
  }
  
  header h1{
@@ -52,7 +55,7 @@ body{
  }
 
  #content-wrapper{
-     min-height: 80vh !important;
+     min-height: 81vh !important;
  }
  
  .main{
@@ -185,7 +188,7 @@ body{
      min-width: 100vw;
      margin-right: 0;
      background: #cd2653;
-     min-height: 20vh;
+     height: 20vh;
  }
  
  
