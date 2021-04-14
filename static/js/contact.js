@@ -12,7 +12,7 @@ const handleMessageCount = () => {
 
 message.addEventListener("input", handleMessageCount);
 
-const contactMessage = document.querySelector("success-message");
+const contactMessage = document.getElementById("success-message");
 if (window.location.search.includes('success')){
-    contactMessage.innerText = "Thanks for your message! I'll get back to you shortly.";
+    contactMessage.innerHTML = "Thanks for your message! I'll get back to you shortly.";
 }
