@@ -29,3 +29,12 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 767px){
+    #writing-main p{
+        width: 90vw;
+    }
+    #writing-main{
+        height: 100vh;
+    }
+}
