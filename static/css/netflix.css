@@ -45,3 +45,20 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (max-width: 767px){
+
+    .netflix-header{
+        font-size: 2.8rem;
+        margin-top: 3vh;
+    }
+
+    #netflix-main p{
+        width: 90vw; 
+    }
+
+    #netflix-main img{
+        width: 80vw;
+        height: auto;
+    }
+}
