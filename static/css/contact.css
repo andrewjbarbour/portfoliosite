@@ -116,3 +116,32 @@
     width: 28vw;
     margin-bottom: 2vh;
 }
+
+@media only screen and (max-width: 767px){
+
+    #contact-description{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-main input{
+        width: 80vw;
+    }
+
+    #contact-main textarea{
+        width: 80vw;
+    }
+
+    #send-message-button{
+        width: 25vw;
+    }
+
+    #contact-main label{
+        width: 80vw;
+    }
+
+    #success-message{
+        width: 80vw;
+    }
+}
