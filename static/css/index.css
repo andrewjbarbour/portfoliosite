@@ -171,7 +171,7 @@ body{
 #profile-pic{
     display: block;
     border-radius: 9999px;
-    min-width: 290px;
+    width: 290px;
     height: 308px;
     margin-left: 10vw;
     margin-right: 1vw;
@@ -379,6 +379,12 @@ body{
         width: 90vw;
         padding-left: 5vw;
         padding-right: 5vw;
+    }
+
+    #profile-pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
