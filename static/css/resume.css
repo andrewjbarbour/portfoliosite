@@ -123,4 +123,8 @@
     #view-resume-pdf-button{
         margin-left: 9vw;
     }
+
+    #popout-nav-menu{
+        transform: translateY(-12vh);
+    }
 }
