@@ -330,7 +330,7 @@ body{
 }
 
 @media only screen and (max-width: 1155px){
-    #contact-link{
+    .contact-link{
         display: none;
     }
 }
