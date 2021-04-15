@@ -159,6 +159,10 @@ html{
 @media only screen and (max-width: 767px){
     .divider-accent-right{
         margin-right: 2%; 
+        z-index: -99999;
+    }
+    .divider-accent-left{
+        z-index: -99999;
     }
 }
 
