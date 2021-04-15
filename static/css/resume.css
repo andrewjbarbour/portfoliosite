@@ -96,7 +96,7 @@
     #resume-wrapper{
         width: 100vw;
         padding-right: 5vw;
-        min-height: 400vh;
+        min-height: 450vh;
     }
 
     #resume-description{
@@ -108,7 +108,7 @@
     }
 
     #resume-main{
-        min-height: 400vh;
+        min-height: 450vh;
     }
 
     #view-resume-pdf-button{
