@@ -156,7 +156,7 @@ html{
 @media only screen and (max-width: 767px){
     .project-img{
         width: 80vw;
-        height: auto;
+        height: 50vw;
     }
     .project-link{
         margin-bottom: -5vh;
