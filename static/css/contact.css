@@ -117,6 +117,15 @@
     margin-bottom: 2vh;
 }
 
+@media only screen and (max-width: 900px){
+  
+    #back-to-top-link{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media only screen and (max-width: 767px){
 
     #contact-description{

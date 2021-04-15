@@ -92,6 +92,15 @@
     transition: all .25s ease-in;
 }
 
+@media only screen and (max-width: 900px){
+  
+    #back-to-top-link{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media only screen and (max-width: 767px){
     #resume-wrapper{
         width: 100vw;

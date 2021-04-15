@@ -389,24 +389,68 @@ body{
 }
 
 @media only screen and (max-width: 767px){
-    #site-navbar{
-        display: none;
-    }
+
+
     #buttons-wrapper{
         display: block;
     }
+
     #review-projects-button{
         margin-bottom: 15px;
         margin-left: auto;
         margin-right: auto;
     }
+
     #see-resume-button{
         margin-bottom: 15px;
         margin-left: auto;
         margin-right: auto;
     }
+
     #back-to-top-wrapper{
         display: flex;
         justify-content: center;
     }
+
+    #main-site-header h2{
+        display: none;
+    }
+
+    #main-site-header h1{
+        width: 50vw;
+        font-size: 3rem;
+        margin-left: 5vw;
+    }
+
+    #popout-nav-menu{
+        width: 10vw;
+        position: absolute;
+        top: 4%;
+        right: 5%;   
+    }
+
+    .popout-line{
+        width: 10vw;
+    }
+
+    #popout-nav-menu-expanded{
+        width: 100vw;
+        left: 0%;
+    }
+
+    #popout-nav-menu-expanded a{
+        display: block;
+        margin-top: 3vh;
+        margin-left: 10vw;
+        width: 100vw;
+    }
+    
+    .expanded-popout-line{
+        margin-left: 10vw;
+    }
+    
+    #close-popout-icon{
+        left: 85%;
+    }
+    
 }
