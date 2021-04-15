@@ -185,18 +185,18 @@ body{
 
 #bio-part-1{
     display: block;
-    width: 579px;
-    line-height: 31px;
-    font-size: 21px;
+    width: 40vw;
+    line-height: 1.95rem;
+    font-size: 1.31rem;
     font-family: Hoefler Text;
     margin-left: 1vw;
 }
 
 #bio-part-2{
     display: block;
-    width: 579px;
-    line-height: 31px;
-    font-size: 21px;
+    width: 40vw;
+    line-height: 1.95rem;
+    font-size: 1.31rem;
     font-family: Hoefler Text;
     margin-left: 1vw;
 }
