@@ -33,3 +33,9 @@
     transform:scale(1.1);
     transition: all .25s ease-in;
 }
+
+@media only screen and (max-width: 767px){
+    #return-home-button{
+        margin-top: 22vh;
+    }
+}
