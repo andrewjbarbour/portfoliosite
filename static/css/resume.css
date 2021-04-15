@@ -33,12 +33,13 @@
     margin-right: auto;
     width: 50vw;
     height: 200vh;
-    box-sizing: border-box;
 }
 
 #resume-description{
     font-style: italic;
     width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #skills{
@@ -103,28 +104,40 @@
 
 @media only screen and (max-width: 767px){
     #resume-wrapper{
-        width: 100vw;
-        padding-right: 5vw;
+        width: 90vw;
+        padding-right: 3vw;
         min-height: 450vh;
     }
 
+    #resume-description-wrapper{
+        width: 90vw;
+    }
+
     #resume-description{
-        width: 100vw;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #skills{
-        width: 100vw;
+        width: 90vw;
     }
 
     #resume-main{
         min-height: 450vh;
     }
 
-    #view-resume-pdf-button{
-        margin-left: 9vw;
+    #resume-button-wrapper{
+        display: flex;
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
 
     #popout-nav-menu{
         transform: translateY(-12vh);
     }
+
+
 }
