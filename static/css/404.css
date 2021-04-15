@@ -1,5 +1,6 @@
 #page-not-found-main{
-    height: 100vh;
+    height: 80vh !important;
+    margin-bottom: -20vh;
 }
 
 #page-not-found-header{
@@ -8,8 +9,27 @@
     text-align: center;
     font-size: 3rem;
     font-weight: 500;
-    margin-top: 40vh;
+    margin-top: 10vh;
     width: 100vw;
     height: 7vh;
     color: #cd2653;
+}
+
+#return-home-button{
+    display: flex;
+    width: 225px;
+    height: 58px;
+    background-color:#e22658;
+    border-radius: 100px;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+#return-home-button:hover{
+    cursor:pointer;
+    transform:scale(1.1);
+    transition: all .25s ease-in;
 }
