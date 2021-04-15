@@ -295,6 +295,11 @@ body{
      text-decoration: underline;
  }
 
+ #favicon{
+    mix-blend-mode: multiply;
+    filter: opacity(0);
+}
+
 @media only screen and (max-width: 1400px){
     #site-navbar{
         margin-left: 10vw;
@@ -346,6 +351,26 @@ body{
         margin-left: 3vw;
     }
     
+    #bio-part-1{
+        width: 90vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #bio-part-2{
+        width: 90vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #popout-nav-menu{
+        width: 10vw;
+        position: absolute;
+        top: 4%;
+        right: 5%;   
+    }
+
+
 }
 
 @media only screen and (max-width: 900px){
@@ -369,29 +394,12 @@ body{
         margin-right: 3vw;
     }
 
-    #bio-part-1{
-        width: 90vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-
-    #bio-part-2{
-        width: 90vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-
     #profile-pic{
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-}
-
-#favicon{
-    mix-blend-mode: multiply;
-    filter: opacity(0);
 }
 
 @media only screen and (max-width: 767px){
