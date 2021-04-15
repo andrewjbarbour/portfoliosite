@@ -70,4 +70,8 @@
         width: 80vw;
         height: auto;
     }
+
+    #popout-nav-menu{
+        transform: translateY(-4vh);
+    }
 }
