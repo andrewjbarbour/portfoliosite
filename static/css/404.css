@@ -1,0 +1,15 @@
+#page-not-found-main{
+    height: 100vh;
+}
+
+#page-not-found-header{
+    display: block;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 40vh;
+    width: 100vw;
+    height: 7vh;
+    color: #cd2653;
+}
