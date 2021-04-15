@@ -10,9 +10,13 @@
     font-size: 3rem;
     font-weight: 500;
     margin-top: 10vh;
+    margin-bottom: 2vh;
     width: 100vw;
-    height: 7vh;
     color: #cd2653;
+}
+
+#return-home-button-wrapper{
+    display: block;
 }
 
 #return-home-button{
@@ -22,7 +26,7 @@
     background-color:#e22658;
     border-radius: 100px;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vh;
@@ -34,8 +38,11 @@
     transition: all .25s ease-in;
 }
 
-@media only screen and (max-width: 767px){
-    #return-home-button{
-        margin-top: 22vh;
+@media only screen and (max-width: 900px){
+  
+    #back-to-top-link{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
