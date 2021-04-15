@@ -295,9 +295,31 @@ body{
      text-decoration: underline;
  }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
     #site-navbar{
-        margin-left: 5vh;
+        margin-left: 10vw;
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    #site-navbar{
+        margin-left: 6vw;
+    }
+}
+
+
+@media only screen and (max-width: 1275px){
+    #site-navbar{
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 1210px){
+    #site-navbar a{
+        display: none;
+    }
+    #popout-nav-menu{
+        margin-left: 30vw;
     }
 }
 
