@@ -32,7 +32,9 @@
 }
 
 #contact-main #email-icon{
+    position: relative;
     transform: translateY(.5vh);
+    z-index: -99999;
 }
 
 #contact-main label{

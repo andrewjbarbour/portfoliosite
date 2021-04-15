@@ -90,6 +90,7 @@ html{
     transform: rotate(22.5deg) translateY(-1.2vh);
     margin-left: .5%; 
     margin-right: .25%;
+    z-index: -99999;
 }
 
 .divider-accent-right{
@@ -102,6 +103,7 @@ html{
     transform: rotate(22.5deg) translateY(-1.2vh);
     margin-left: .5%;
     margin-right: .5%; 
+    z-index: -99999;
 }
 
 .project-img{
@@ -157,13 +159,11 @@ html{
 }
 
 @media only screen and (max-width: 767px){
+
     .divider-accent-right{
         margin-right: 2%; 
-        z-index: -99999;
     }
-    .divider-accent-left{
-        z-index: -99999;
-    }
+    
 }
 
 @media only screen and (max-width: 767px){
