@@ -300,6 +300,19 @@ body{
     filter: opacity(0);
 }
 
+@media only screen and (min-width: 1600px){
+    #site-navbar{
+        position: absolute;
+        top: 3.5%;
+        right: 2%;
+    }
+    #fp-main-col-right{
+    }
+    html{
+        font-size: 1.2rem;
+    }
+}
+
 @media only screen and (max-width: 1400px){
     #site-navbar{
         margin-left: 10vw;
