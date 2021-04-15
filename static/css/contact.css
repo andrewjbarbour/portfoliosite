@@ -141,8 +141,8 @@
     }
 
     #contact-message{
-        width: 82vw !important;
-        min-width: 82vw !important;
+        width: 82vw;
+        box-sizing: content-box;
     }
 
     #send-message-button{
