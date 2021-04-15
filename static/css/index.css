@@ -460,3 +460,11 @@ body{
     }
     
 }
+
+@media only screen and (max-width: 350px){
+    #main-body-header{
+        margin-bottom: 5vh;
+        height: auto;
+    }
+
+}
