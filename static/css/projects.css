@@ -1,3 +1,7 @@
+:root{
+    --divider-color: #6d6d6d;
+}
+
 body{
     font-family: Inter, sans-serif;
     color: #0f1111;  
@@ -59,7 +63,7 @@ html{
     width: 46vw;
     height: 1px;
     border: none;
-    border-top: 1px solid #6d6d6d;
+    border-top: 1px solid var(--divider-color, #6d6d6d);
     background-color: transparent;
     margin-left: 2%;
     margin-right: 0%;
@@ -70,7 +74,7 @@ html{
     width: 46vw;
     height: 1px;
     border: none;
-    border-top: 1px solid #6d6d6d;
+    border-top: 1px solid var(--divider-color, #6d6d6d);
     background-color: transparent;
     margin-left: .5%;
     margin-right: 2%;
@@ -83,9 +87,9 @@ html{
 .divider-accent-left{
     display: inline-block;
     height: 1rem;
-    background-color: #6d6d6d;
+    background-color: var(--divider-color, #6d6d6d);
     border: none;
-    border-top: 1px solid #6d6d6d;
+    border-top: 1px solid var(--divider-color, #6d6d6d);
     width: .08rem;
     transform: rotate(22.5deg) translateY(-1.2vh);
     margin-left: .5%; 
@@ -96,9 +100,9 @@ html{
 .divider-accent-right{
     display: inline-block;
     height: 1rem;
-    background-color: #6d6d6d;
+    background-color: var(--divider-color, #6d6d6d);;
     border: none;
-    border-top: 1px solid #6d6d6d;
+    border-top: 1px solid var(--divider-color, #6d6d6d);;
     width: .08rem;
     transform: rotate(22.5deg) translateY(-1.2vh);
     margin-left: .5%;
