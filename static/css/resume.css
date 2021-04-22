@@ -1,6 +1,8 @@
 #resume-main{
     font-family: Hoefler Text, sans-serif;
-    height: 260vh;
+    padding-bottom: 3vh;
+    position: relative;
+    display: flex;
 }
 
 #resume-header{
@@ -28,11 +30,11 @@
 }
 
 #resume-wrapper{
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     width: 50vw;
-    height: 200vh;
 }
 
 #resume-description{
@@ -114,7 +116,6 @@
     #resume-wrapper{
         width: 90vw;
         padding-right: 3vw;
-        min-height: 450vh;
     }
 
     #resume-description-wrapper{
@@ -129,10 +130,6 @@
 
     #skills{
         width: 90vw;
-    }
-
-    #resume-main{
-        min-height: 450vh;
     }
 
     #resume-button-wrapper{
