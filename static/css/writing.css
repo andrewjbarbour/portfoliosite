@@ -59,4 +59,7 @@
     #writing-main{
         height: 100vh;
     }
+    #popout-nav-menu{
+        transform: translateY(1em)
+    }
 }
