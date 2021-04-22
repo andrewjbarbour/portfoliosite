@@ -94,23 +94,6 @@
     transition: all .25s ease-in;
 }
 
-@media only screen and (min-width: 1600px){
-    #site-navbar{
-        position: absolute;
-        top: 1.5%;
-        right: 2%;
-    }
-}
-
-@media only screen and (max-width: 900px){
-  
-    #back-to-top-link{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media only screen and (max-width: 767px){
     #resume-wrapper{
         width: 90vw;
@@ -138,11 +121,4 @@
         margin-right: auto;
         justify-content: center;
     }
-
-    #popout-nav-menu{
-        position: absolute;
-        transform: translateY(-8vh);
-    }
-
-
 }

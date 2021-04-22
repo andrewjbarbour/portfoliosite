@@ -30,42 +30,11 @@
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 1600px){
-    #site-navbar{
-        position: absolute;
-        top: 3.3%;
-        right: 2%;
-    }
-
-    html{
-        font-size: 1.2rem;
-    }
-}
-
-
-@media only screen and (max-width: 900px){
-  
-    #back-to-top-link{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media only screen and (max-width: 767px){
     #writing-main p{
         width: 90vw;
     }
     #writing-main{
         height: 100vh;
-    }
-    #popout-nav-menu{
-        transform: translateY(2vh)
-    }
-}
-
-@media only screen and (max-width: 400px){
-    #popout-nav-menu{
-        transform: translateY(4vh)
     }
 }

@@ -159,25 +159,7 @@ html{
     }
 }
 
-@media only screen and (min-width: 1600px){
-    #site-navbar{
-        position: absolute;
-        top: 1.8%;
-        right: 2%;
-    }
-}
-
-@media only screen and (max-width: 900px){
-  
-    #back-to-top-link{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media only screen and (max-width: 767px){
-
     .divider-accent-right{
         margin-right: 2%; 
     }

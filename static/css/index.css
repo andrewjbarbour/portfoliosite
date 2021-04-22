@@ -36,14 +36,19 @@ body{
      margin-left: 2vw;
      font-weight: 500;
  }
-  
+
+ #navbar{
+     display: flex;
+     width: 100vw;
+     height: 10vw;
+     padding-bottom: 2vh;
+ }
+ 
  nav a{
-     display: inline-block;
      color: var(--sharp-red, #cd2653);
      text-decoration: none;
      font-size: 1.5rem;
-     padding: 7px;
-     transform: translateY(-5px);
+     padding: 7px;  
  }
  
  nav a:hover{
@@ -51,18 +56,26 @@ body{
  }
  
  #main-site-header{
-     display: inline-block;
+    width: 50vw;
+    height: 10vw;
  }
 
  #site-navbar{
-     display: inline-flex;
-     margin-left: 15vw;
+     padding-left: 12vw;
+     display: flex;
+     align-items: center;
+     width: 38vw;
+     height: 10vw;
  }
 
 #popout-nav-menu{
-    display: inline;
-    width: 2vw;
     height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+#popout-line-wrapper{
+    display: block;
 }
 
 .popout-line{
@@ -290,11 +303,6 @@ body{
      width: 88vw;
  }
 
- #back-to-top-link{
-    display: inline-block;
-    width: 20vw;
-    margin-right: 15px;
- }
  
  #back-to-top-link:hover{
      cursor: pointer;
@@ -313,60 +321,54 @@ body{
 }
 
 @media only screen and (min-width: 1600px){
-    #site-navbar{
-        position: absolute;
-        top: 3.5%;
-        right: 2%;
-    }
-
     html{
         font-size: 1.2rem;
     }
-}
-
-@media only screen and (max-width: 1400px){
+   
     #site-navbar{
-        margin-left: 10vw;
+        padding-left: 15vw;
     }
 }
 
-@media only screen and (max-width: 1350px){
+@media only screen and (max-width: 1380px) and (min-width: 1250px){
     #site-navbar{
-        margin-left: 6vw;
+        padding-left: 8%;
     }
 }
 
-
-@media only screen and (max-width: 1275px){
+@media only screen and (max-width: 1250px) and (min-width: 1000px){
     #site-navbar{
-        margin-left: 5vw;
+        padding-left: 6%;
     }
+}
+
+@media only screen and (max-width: 1310px){
+    #main-site-header{
+        display: flex;
+        align-items: center;
+    }
+
+   #main-site-header h2{
+       display: none;
+   }
 }
 
 @media only screen and (max-width: 1230px){
     #site-navbar a{
         display: none;
-    }
-    #popout-nav-menu{
-        margin-left: 30vw;
+        height: 22vh;
     }
 }
 
-@media only screen and (max-width: 1175px){
-    #site-navbar{
-        margin-left: 3vh;
+@media only screen and (max-width: 1230px) and (min-width:768px){
+    #popout-nav-menu{
+        margin-left: 30vw;
     }
 }
 
 @media only screen and (max-width: 1050px){
     #main-col-wrapper{
         display: block;
-    }
-   
-    #main-site-header h2{
-        display: block;
-        margin-top: -30px;
-        margin-left: 3vw;
     }
     
     #bio-part-1{
@@ -381,14 +383,6 @@ body{
         padding-right: 5vw;
     }
 
-    #popout-nav-menu{
-        width: 10vw;
-        position: absolute;
-        top: 4%;
-        right: 5%;   
-    }
-
-
 }
 
 @media only screen and (max-width: 900px){
@@ -398,9 +392,6 @@ body{
 
     #back-to-top-link{
         margin-top: 2vh;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        width: 30vw;
     }
 
     #fp-main-col-left{
@@ -421,7 +412,22 @@ body{
 }
 
 @media only screen and (max-width: 767px){
+    #navbar{
+        height: 22vh;
+    }
 
+    #main-site-header{
+        height: 22vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #site-navbar{
+        height: 22vh;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
 
     #buttons-wrapper{
         display: block;
@@ -452,13 +458,11 @@ body{
         width: 50vw;
         font-size: 3rem;
         margin-left: 5vw;
+        vertical-align: center;
     }
 
     #popout-nav-menu{
-        width: 10vw;
-        position: absolute;
-        top: 4%;
-        right: 5%;   
+        margin-left: 58%;
     }
 
     .popout-line{
@@ -475,6 +479,9 @@ body{
         margin-top: 3vh;
         margin-left: 10vw;
         width: 100vw;
+        height: 5vh;
+        z-index: 9999;
+
     }
     
     .expanded-popout-line{
