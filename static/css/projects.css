@@ -196,3 +196,9 @@ html{
         min-height: 150vh;
     }
 }
+
+@media only screen and (max-width: 400px){
+    #popout-nav-menu{
+        transform: translateY(2vh)
+    }
+}

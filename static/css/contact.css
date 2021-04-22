@@ -185,4 +185,9 @@ noscript{
     #popout-nav-menu{
         transform: translateY(1em)
     }
+
+    @media only screen and (max-width: 400px){
+        #popout-nav-menu{
+            transform: translateY(4vh)
+        }
 }

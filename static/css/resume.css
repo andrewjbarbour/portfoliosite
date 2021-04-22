@@ -140,6 +140,7 @@
     }
 
     #popout-nav-menu{
+        position: absolute;
         transform: translateY(-8vh);
     }
 
