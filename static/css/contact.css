@@ -28,7 +28,8 @@
 }
 
 #contact-main{
-    height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact-main #email-icon{
@@ -103,6 +104,7 @@
     color: #fff;
     font-family: Inter, sans-serif;
     font-size: 1em;
+    margin-bottom: 5vh;
 }
 
 #send-message-button:hover{
@@ -160,6 +162,6 @@
     }
 
     #contact-main{
-        height: 110vh;
+       
     }
 }
