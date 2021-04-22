@@ -18,6 +18,18 @@
     text-align: center;
 }
 
+noscript{
+    font-family: Hoefler Text, sans-serif;
+    display: block;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    text-align: center;
+    margin-bottom: 3vh;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #success-message{
     font-family: Hoefler Text, sans-serif;
     display: block;
@@ -67,6 +79,15 @@
 #contact-main input:hover, #contact-main input:focus{
     box-shadow: 0 0 2px 1px #cd2653;
     transition: all ease-in .25s;
+}
+
+#contact-main a {
+    color: #cd2653;
+    text-decoration: none;
+}
+
+#contact-main a:hover{
+    text-decoration: underline;
 }
 
 #contact-message{
@@ -132,7 +153,7 @@
 
 @media only screen and (max-width: 767px){
 
-    #contact-description{
+    #contact-description, noscript{
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
