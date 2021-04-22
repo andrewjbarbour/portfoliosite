@@ -53,14 +53,14 @@ body{
  #main-site-header{
      display: inline-block;
  }
- 
+
  #site-navbar{
-     display: inline-block;
+     display: inline-flex;
      margin-left: 15vw;
  }
 
 #popout-nav-menu{
-    display: inline-block;
+    display: inline;
     width: 2vw;
     height: 25%;
 }
