@@ -106,7 +106,7 @@ noscript{
     box-sizing: border-box;
 }
 
-#contact-message:focus, #contact-message:hover{
+#contact-message:focus, #contact-message:hover, #contact-message:active{
     box-shadow: 0 0 2px 1px #cd2653;
     transition: all ease-in .25s;
 }
