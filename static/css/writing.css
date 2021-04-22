@@ -63,3 +63,9 @@
         transform: translateY(2vh)
     }
 }
+
+@media only screen and (max-width: 400px){
+    #popout-nav-menu{
+        transform: translateY(4vh)
+    }
+}
