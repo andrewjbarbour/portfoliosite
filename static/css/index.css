@@ -305,6 +305,12 @@ body{
     filter: opacity(0);
 }
 
+@supports (aspect-ratio: attr(width) / attr(height)){
+    #profile-pic{
+        aspect-ratio: attr(width) / attr(height);
+    }
+}
+
 @media only screen and (min-width: 1600px){
     #site-navbar{
         position: absolute;

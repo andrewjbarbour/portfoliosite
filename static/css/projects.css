@@ -153,6 +153,12 @@ html{
     transition: all .25s ease-in;
 }
 
+@supports (aspect-ratio: attr(width) / attr(height)){
+    .project-img{
+        aspect-ratio: 580 / 392;
+    }
+}
+
 @media only screen and (min-width: 1600px){
     #site-navbar{
         position: absolute;
