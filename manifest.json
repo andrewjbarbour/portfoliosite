@@ -1,5 +1,27 @@
 {
+"short-name": "portfolio",
 "name": "portfoliosite",
+"icons": [
+    {
+        "src": "static/assets/favicon.png?v=1.0",
+        "type": "image/png",
+        "sizes": "180x180"
+    },
+    {
+        "src": "static/assets/apple-touch-icon.png",
+        "type": "image/png",
+        "sizes": "180x180"
+    }
+],
+"start-url": "https://andrewbarbour.com/",
+"display": "browser",
 "version": "0.0.2",
-"theme-color": "#cd2653"    
+"description": "Andrew Barbour | Software Engineer Portfolio Site", 
+"theme-color": "#cd2653",
+"repository": {
+    "type": "git",
+    "url": "https://github.com/andrewjbarbour/portfoliosite.git"
+},
+"author": "Andrew Barbour",
+"homepage": "https://andrewbarbour.com/"
 }
