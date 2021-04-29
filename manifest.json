@@ -17,7 +17,7 @@
 "display": "fullscreen",
 "version": "0.0.2",
 "description": "Andrew Barbour | Software Engineer Portfolio Site", 
-"theme-color": "#cd2653",
+"theme_color": "#cd2653",
 "repository": {
     "type": "git",
     "url": "https://github.com/andrewjbarbour/portfoliosite.git"
