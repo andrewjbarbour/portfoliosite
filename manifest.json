@@ -13,8 +13,8 @@
         "sizes": "180x180"
     }
 ],
-"start-url": "https://andrewbarbour.com/",
-"display": "browser",
+"start-url": "/index.html",
+"display": "fullscreen",
 "version": "0.0.2",
 "description": "Andrew Barbour | Software Engineer Portfolio Site", 
 "theme-color": "#cd2653",
