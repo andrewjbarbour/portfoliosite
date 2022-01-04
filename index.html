@@ -14,6 +14,7 @@
         <link rel="icon" href="static/assets/favicon.png?v=1.0" type="image/png">
         <link rel="apple-touch-icon" sizes="180x180" href="static/assets/apple-touch-icon.png">
         <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+        <link rel="preload" href="./static/assets/profile-pic.jpeg" as="image"/>
         <title>Andrew Barbour | Software Engineer</title>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-E54SR646MZ"></script>
@@ -66,7 +67,7 @@
                 <h1 id="main-body-header">Hi, I'm Andrew.</h1>
                 <div id="main-col-wrapper">
                     <div id="fp-main-col-left">
-                        <img id="profile-pic" src="./static/assets/profile-pic.jpeg" sizes="50vw" alt="Profile Picture">
+                        <img id="profile-pic" src="./static/assets/profile-pic.jpeg" srcset="./static/assets/profile-pic-mobile.jpeg 290w, ./static/assets/profile-pic.jpeg 371w" sizes="50vw" alt="Profile Picture">
                     </div>
                     <div id="fp-main-col-right">
                         <p id="bio-part-1">
