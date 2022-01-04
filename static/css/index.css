@@ -17,7 +17,6 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   margin: 0;
-  display: inline-block;
   position: relative;
   max-width: 100%;
   min-height: 100%;
