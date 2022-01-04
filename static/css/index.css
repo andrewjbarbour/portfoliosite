@@ -187,7 +187,7 @@ nav a:hover {
 #profile-pic {
   display: block;
   border-radius: 9999px;
-  width: 290px;
+  width: auto;
   height: 308px;
   margin-left: 10vw;
   margin-right: 1vw;
