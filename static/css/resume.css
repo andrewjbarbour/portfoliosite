@@ -1,124 +1,129 @@
-#resume-main{
-    font-family: Hoefler Text, sans-serif;
-    padding-bottom: 3vh;
-    display: flex;
+#resume-main {
+  font-family: Hoefler Text, sans-serif;
+  padding-bottom: 3vh;
+  display: flex;
 }
 
-#resume-header{
-    display: block;
-    font-family: Inter, sans-serif;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 500;
-    margin-top: -10px;
+#resume-header {
+  display: block;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: -10px;
 }
 
-#resume-wrapper h2{
-    display: block;
-    font-family: Inter;
-    font-size: 3rem;
-    margin-left: 3vw;
-    color: #cd2653;
+#resume-wrapper h2 {
+  display: block;
+  font-family: Inter;
+  font-size: 3rem;
+  margin-left: 3vw;
+  color: #cd2653;
 }
 
-#resume-wrapper span{
-    display: block;
-    font-size: 1.35rem;
-    line-height: 2.1rem;
-    margin-left: 3vw;
+#resume-wrapper span {
+  display: block;
+  font-size: 1.35rem;
+  line-height: 2.1rem;
+  margin-left: 3vw;
 }
 
-#resume-wrapper{
-    display: flex;
-    flex-direction: column;
+#resume-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+#resume-description {
+  font-style: italic;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills {
+  width: 42vw;
+}
+
+#work-experience-wrapper {
+  display: block;
+}
+
+.work-experience-subheader {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 3vw;
+  margin-bottom: 1vh;
+}
+
+.role-subheader {
+  font-weight: 700;
+  padding-top: 2%;
+}
+
+.work-experience-content {
+  display: block;
+  margin-left: -10vw;
+}
+
+#education-space {
+  display: block;
+  margin-bottom: 3vh;
+}
+
+#resume-button-wrapper {
+  display: block;
+  width: 100vw;
+  height: 20vh;
+  margin-top: 5vh;
+  margin-left: 18vw;
+  font-size: 1.1rem;
+  font-family: Inter, sans-serif;
+}
+
+#view-resume-pdf-button {
+  display: flex;
+  width: 120px;
+  height: 58px;
+  background-color: #e22658;
+  border-radius: 100px;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+#view-resume-pdf-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.25s ease-in;
+}
+
+@media only screen and (max-width: 767px) {
+  #resume-wrapper {
+    width: 90vw;
+    padding-right: 3vw;
+  }
+
+  #resume-description-wrapper {
+    width: 90vw;
+  }
+
+  #resume-description {
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #skills {
+    width: 90vw;
+  }
+
+  #resume-button-wrapper {
+    display: flex;
     width: 50vw;
-}
-
-#resume-description{
-    font-style: italic;
-    width: 40vw;
     margin-left: auto;
     margin-right: auto;
-}
-
-#skills{
-    width: 42vw;
-}
-
-#work-experience-wrapper{
-    display: block;
-}
-
-.work-experience-subheader{
-    font-size: 1.35rem;
-    font-weight: 600;
-    margin-left: 3vw;
-    margin-bottom: 1vh;
-}
-
-.work-experience-content{
-    display: block;
-    margin-left: -10vw;
-}
-
-#education-space{
-    display: block;
-    margin-bottom: 3vh;
-}
-
-#resume-button-wrapper{
-    display: block;
-    width: 100vw;
-    height: 20vh;
-    margin-top: 5vh;
-    margin-left: 18vw;
-    font-size: 1.1rem;
-    font-family: Inter, sans-serif;
-}
-
-#view-resume-pdf-button{
-    display: flex;
-    width: 120px;
-    height: 58px;
-    background-color:#e22658;
-    border-radius: 100px;
-    align-items: center;
-    margin-bottom: 5vh;
-}
-
-#view-resume-pdf-button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all .25s ease-in;
-}
-
-@media only screen and (max-width: 767px){
-    #resume-wrapper{
-        width: 90vw;
-        padding-right: 3vw;
-    }
-
-    #resume-description-wrapper{
-        width: 90vw;
-    }
-
-    #resume-description{
-        width: 90vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #skills{
-        width: 90vw;
-    }
-
-    #resume-button-wrapper{
-        display: flex;
-        width: 50vw;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
+    justify-content: center;
+  }
 }
