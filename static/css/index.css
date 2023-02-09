@@ -3,6 +3,10 @@
   --main-black: #0f1111;
 }
 
+a {
+  text-decoration: unset;
+}
+
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -27,6 +31,21 @@ header h1 {
   display: inline-block;
   margin-left: 3vw;
   font-weight: 500;
+  padding-bottom: 2px;
+  background-image: linear-gradient(var(--main-black) 0 0);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-in, background-position 0s 0.3s ease-in;
+}
+
+header h1:hover {
+  background-position: 100% 100%;
+  background-size: 100% 2px;
+}
+
+header h1 a:visited {
+  color: var(--main-black);
 }
 
 header h2 {
@@ -43,7 +62,7 @@ header h2 {
   padding-bottom: 2vh;
 }
 
-nav a {
+#site-navbar a {
   color: var(--sharp-red);
   text-decoration: none;
   font-size: 1.5rem;
@@ -56,7 +75,7 @@ nav a {
   transition: background-size 0.3s ease-in, background-position 0s 0.3s ease-in;
 }
 
-nav a:hover {
+#site-navbar a:hover {
   background-position: 100% 100%;
   background-size: 100% 2px;
 }
