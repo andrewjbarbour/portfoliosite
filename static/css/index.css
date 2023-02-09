@@ -44,14 +44,21 @@ header h2 {
 }
 
 nav a {
-  color: var(--sharp-red, #cd2653);
+  color: var(--sharp-red);
   text-decoration: none;
   font-size: 1.5rem;
   padding: 7px;
+  padding-bottom: 2px;
+  background-image: linear-gradient(var(--sharp-red) 0 0);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-in, background-position 0s 0.3s ease-in;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-position: 100% 100%;
+  background-size: 100% 2px;
 }
 
 #main-site-header {
@@ -71,6 +78,11 @@ nav a:hover {
   height: 25%;
   display: flex;
   align-items: center;
+  padding-right: 10%;
+}
+
+#popout-nav-menu:hover .popout-line {
+  border-top: 1.8px solid var(--sharp-red);
 }
 
 #popout-line-wrapper {
@@ -84,7 +96,7 @@ nav a:hover {
   margin-left: 1vw;
   margin-bottom: 10%;
   border: none;
-  border-top: 1px solid var(--sharp-red, #cd2653);
+  border-top: 1px solid var(--sharp-red);
   background-color: transparent;
 }
 
@@ -117,7 +129,7 @@ nav a:hover {
   margin-bottom: 0;
   margin-top: 0;
   border: none;
-  border-top: 1px solid var(--main-black, #0f1111);
+  border-top: 1px solid var(--main-black);
   background-color: transparent;
   opacity: 0.2;
 }
@@ -283,7 +295,7 @@ nav a:hover {
   display: flex;
   min-width: 100vw;
   margin-right: 0;
-  background: var(--sharp-red, #cd2653);
+  background: var(--sharp-red);
   height: 20vh;
 }
 
