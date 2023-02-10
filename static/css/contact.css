@@ -1,184 +1,190 @@
-.contact-header{
-    display: inline-block;
-    font-family: Inter, sans-serif;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 500;
-    margin-top: -1rem;
-    width: 100vw;
-    height: 7vh;
-    margin-bottom: 0;
+.contact-header {
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: -1rem;
+  width: 100vw;
+  height: 7vh;
+  margin-bottom: 0;
 }
 
-#contact-description{
-    font-family: Hoefler Text, sans-serif;
-    display: block;
-    font-size: 1.3rem;
-    line-height: 2.1rem;
-    text-align: center;
+#contact-description {
+  font-family: Hoefler Text, sans-serif;
+  display: block;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  text-align: center;
 }
 
-noscript{
-    font-family: Hoefler Text, sans-serif;
-    display: block;
-    font-size: 1.3rem;
-    line-height: 2.1rem;
-    text-align: center;
-    margin-bottom: 3vh;
-    width: 30vw;
-    margin-left: auto;
-    margin-right: auto;
+.hidden {
+  display: none;
 }
 
-#success-message{
-    font-family: Hoefler Text, sans-serif;
-    display: block;
-    font-size: 1.3rem;
-    line-height: 2.1rem;
-    text-align: center;
-    margin-bottom: 1vh;
+noscript {
+  font-family: Hoefler Text, sans-serif;
+  display: block;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  text-align: center;
+  margin-bottom: 3vh;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#contact-main{
-    display: flex;
-    flex-direction: column;
+#success-message {
+  font-family: Hoefler Text, sans-serif;
+  display: block;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  text-align: center;
+  margin-bottom: 1vh;
 }
 
-#contact-main #email-icon{
-    position: relative;
-    transform: translateY(.5vh);
-    z-index: -99999;
+#contact-main {
+  display: flex;
+  flex-direction: column;
 }
 
-#contact-main label{
-    display: block;
-    width: 28vw;
-    padding-bottom: .3vh;
-    margin-bottom: .2vh;
-    font-weight: 700;
-    color: #cd2653;
-    font-size: 1.3rem;
-    margin-left: auto;
-    margin-right: auto;
+#contact-main #email-icon {
+  position: relative;
+  transform: translateY(0.5vh);
+  z-index: -99999;
 }
 
-#contact-main input{
-    display: block;
-    height: 5vh;
-    width: 28vw;
-    outline: none;
-    border: 1px solid #d0d0d0;
-    border-radius: 3px;
-    font-size: 1.3rem;
-    text-indent: .5vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
+#contact-main label {
+  display: block;
+  width: 28vw;
+  padding-bottom: 0.3vh;
+  margin-bottom: 0.2vh;
+  font-weight: 700;
+  color: #cd2653;
+  font-size: 1.3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#contact-main input:hover, #contact-main input:focus{
-    box-shadow: 0 0 2px 1px #cd2653;
-    transition: all ease-in .25s;
+#contact-main input {
+  display: block;
+  height: 5vh;
+  width: 28vw;
+  outline: none;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  text-indent: 0.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vh;
+}
+
+#contact-main input:hover,
+#contact-main input:focus {
+  box-shadow: 0 0 2px 1px #cd2653;
+  transition: all ease-in 0.25s;
 }
 
 #contact-main a {
-    color: #cd2653;
-    text-decoration: none;
+  color: #cd2653;
+  text-decoration: none;
 }
 
-#contact-main a:hover{
-    text-decoration: underline;
+#contact-main a:hover {
+  text-decoration: underline;
 }
 
-#contact-message{
+#contact-message {
+  display: block;
+  height: 20vh;
+  width: 28vw;
+  outline: none;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vh;
+  resize: none;
+  padding: 1vh;
+  box-sizing: border-box;
+}
+
+#contact-message:focus,
+#contact-message:hover,
+#contact-message:active {
+  box-shadow: 0 0 2px 1px #cd2653;
+  transition: all ease-in 0.25s;
+}
+
+#send-message-button {
+  display: block;
+  width: 10vw;
+  height: 58px;
+  border: none;
+  background-color: #e22658;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1em;
+  margin-bottom: 5vh;
+}
+
+#send-message-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all ease-in 0.25s;
+}
+
+#chars-remaining {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28vw;
+  margin-bottom: 2vh;
+}
+
+@media only screen and (max-width: 900px) {
+  #back-to-top-link {
     display: block;
-    height: 20vh;
-    width: 28vw;
-    outline: none;
-    border: 1px solid #d0d0d0;
-    border-radius: 3px;
-    font-size: 1.3rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1vh;
-    resize: none;
-    padding: 1vh;
-    box-sizing: border-box;
+  }
 }
 
-#contact-message:focus, #contact-message:hover, #contact-message:active{
-    box-shadow: 0 0 2px 1px #cd2653;
-    transition: all ease-in .25s;
-}
-
-#send-message-button{
-    display: block;
-    width: 10vw;
-    height: 58px;
-    border: none;
-    background-color:#e22658;
-    border-radius: 100px;
+@media only screen and (max-width: 767px) {
+  #contact-description,
+  noscript {
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    font-family: Inter, sans-serif;
-    font-size: 1em;
-    margin-bottom: 5vh;
-}
+  }
 
-#send-message-button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all ease-in .25s;
-}
+  #contact-main input {
+    width: 80vw;
+  }
 
-#chars-remaining{
-    display: block;
+  #contact-message {
+    width: 82vw;
+    box-sizing: content-box;
+  }
+
+  #send-message-button {
+    width: 25vw;
+  }
+
+  #contact-main label {
+    width: 80vw;
+  }
+
+  #success-message {
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    width: 28vw;
-    margin-bottom: 2vh;
-}
-
-@media only screen and (max-width: 900px){
-  
-    #back-to-top-link{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 767px){
-
-    #contact-description, noscript{
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #contact-main input{
-        width: 80vw;
-    }
-
-    #contact-message{
-        width: 82vw;
-        box-sizing: content-box;
-    }
-
-    #send-message-button{
-        width: 25vw;
-    }
-
-    #contact-main label{
-        width: 80vw;
-    }
-
-    #success-message{
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  }
 }

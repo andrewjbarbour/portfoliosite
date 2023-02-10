@@ -67,7 +67,12 @@
                 <noscript>This form won't work without JavaScript, but you can send me a message on <a href="https://www.linkedin.com/in/barbouraj/">LinkedIn</a> or by <a href="mailto:barbouraj@gmail.com">email.</a></noscript>
                 <div id="form-wrapper">
                     <span id="success-message"></span>
-                    <form name="contact" method="POST" data-netlify="true" action="/contact?success">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact?success">
+                        <div class="hidden">
+                            <label>
+                              Don’t fill this out if you’re human: <input name="bot-field" />
+                            </label>
+                        </div>
                         <label name="contact-name-label" id="contact-name-label" for="contact-name">Name:</label>
                         <input name="contact-name" id="contact-name" type="text" required>
                         <label name="contact-email-label" id="contact-email-label" for="contact-email">Email:</label>
