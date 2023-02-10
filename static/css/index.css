@@ -80,6 +80,10 @@ header h2 {
   background-size: 100% 2px;
 }
 
+#popout-nav-menu-expanded a {
+  background-image: none;
+}
+
 #main-site-header {
   width: 50vw;
   height: 10vw;
