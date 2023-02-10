@@ -1,0 +1,52 @@
+#media-main {
+  font-family: Hoefler Text, sans-serif;
+  height: 100vh;
+}
+
+#media-header {
+  display: block;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+#media-main p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  width: 43vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#media-main h3 {
+  font-size: 1.6rem;
+  width: 43vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#media-subheader {
+  font-size: 1.5rem !important;
+}
+
+.media-link {
+  color: #cd2653;
+  text-decoration: none;
+}
+
+.media-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  #media-main p {
+    width: 90vw;
+  }
+  #media-main {
+    height: 100vh;
+    padding-bottom: 10vh;
+  }
+}
