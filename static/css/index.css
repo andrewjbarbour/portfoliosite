@@ -386,7 +386,7 @@ header h2 {
 }
 
 @media only screen and (max-width: 1230px) {
-  #site-navbar a:not(#popout-nav-menu-expanded *) {
+  #site-navbar a:not(#popout-nav-menu-expanded) {
     display: none;
     height: 22vh;
   }
