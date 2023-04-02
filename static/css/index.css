@@ -44,6 +44,7 @@ header h1:hover {
   background-size: 100% 2px;
 }
 
+header h1 a,
 header h1 a:visited {
   color: var(--main-black);
 }
